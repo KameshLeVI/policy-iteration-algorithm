@@ -36,6 +36,10 @@ For example, if the agent is in state S and takes the "R" action, then there is 
 
 The agent receives a reward of +1 for reaching the goal state (G). The agent receives a reward of 0 for all other states.
 
+## Graphical Representation 
+![image](https://github.com/KameshLeVI/policy-iteration-algorithm/assets/120780633/d19c9d51-76f6-41c8-8c6a-2873a69a75cb)
+
+
 ## POLICY ITERATION ALGORITHM
 
 The algorithm implemented in the **policy_iteration** is a method used to find the optimal policy in a Markov decision process (MDP).
@@ -98,9 +102,11 @@ def policy_iteration(P, gamma=1.0, theta=1e-10):
 ```
 
 ## OUTPUT:
-![image](https://github.com/KameshLeVI/policy-iteration-algorithm/assets/120780633/aa847c7e-3d42-43e0-8155-8dd3b41d5906)
-![image](https://github.com/KameshLeVI/policy-iteration-algorithm/assets/120780633/7ad1043d-7ce5-4c4d-a354-d13c65dfcb3f)
-![image](https://github.com/KameshLeVI/policy-iteration-algorithm/assets/120780633/b96e490b-d073-4d5b-9ea4-9d21358bb866)
+![Screenshot 2024-03-12 143123](https://github.com/KameshLeVI/policy-iteration-algorithm/assets/120780633/29641168-8f4e-4443-b19e-7003ea6ba51c)
+
+![Screenshot 2024-03-12 143136](https://github.com/KameshLeVI/policy-iteration-algorithm/assets/120780633/321322f3-65d3-4804-8f38-1def216537b5)
+
+![Screenshot 2024-03-12 143145](https://github.com/KameshLeVI/policy-iteration-algorithm/assets/120780633/81340e85-f96a-4fa9-8ef6-459864e62cec)
 
 ## RESULT:
 
